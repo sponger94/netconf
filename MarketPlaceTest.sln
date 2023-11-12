@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3EFC56E6-90B3-4A9C-9E49-B9FD7FDA44FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{E69CD707-B141-4823-90B0-4C4F32FB174F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductServiceEfCore", "ProductServiceEfCore\ProductServiceEfCore.csproj", "{4F0FEC38-9527-4EB5-A566-F029C6E75B5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E69CD707-B141-4823-90B0-4C4F32FB174F} = {3EFC56E6-90B3-4A9C-9E49-B9FD7FDA44FE}
+		{4F0FEC38-9527-4EB5-A566-F029C6E75B5E} = {3EFC56E6-90B3-4A9C-9E49-B9FD7FDA44FE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E69CD707-B141-4823-90B0-4C4F32FB174F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69CD707-B141-4823-90B0-4C4F32FB174F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69CD707-B141-4823-90B0-4C4F32FB174F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69CD707-B141-4823-90B0-4C4F32FB174F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0FEC38-9527-4EB5-A566-F029C6E75B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0FEC38-9527-4EB5-A566-F029C6E75B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0FEC38-9527-4EB5-A566-F029C6E75B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0FEC38-9527-4EB5-A566-F029C6E75B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
